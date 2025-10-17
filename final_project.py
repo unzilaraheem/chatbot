@@ -76,8 +76,3 @@ print("\n================ RESULT ================")
 print(response)
 print("========================================")
 
-# Write the response to a file before downloading
-with open("poster_review.txt", "w") as f:
-    f.write(response)
-
-files.download("poster_review.txt")
